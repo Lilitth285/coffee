@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+.header {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/coffee.png);
+    height: 100vh;
+    padding: 11px;
+    margin: 0;
+    
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+    padding-right: 200px;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.picture {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.list li a {
+    text-decoration: none;
+    color: white;
+}
+.list li a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.hero {
+    color: white;
+    padding: 0 100px;
+    padding-top: 150px;
+    
+    
+}
+.hero h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.hero p1 {
+    font-size: 20px;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 30px 30px;
+    border-radius: 20px;
+    background-color: #B68C4D;
+    
+    
+}
+.hero-content .button{
+    margin-top: 20px;
+}
